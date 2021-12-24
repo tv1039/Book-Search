@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - Book Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        #searchBar input {
+            padding: 5px 3px;
+        }
+
+        .wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .content {
+            display: flex;
+            margin: 0 10px 10px;
+            width: 70%;
+            border: 1px solid #ccc;
+        }
+
+        .content>div {
+            padding: 10px;
+        }
+
+        .content h2 {
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Book search</h1>
+    <form id="searchBar">
+        <input type="text" id="search">
+    </form>
+    <div class="wrap"></div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
